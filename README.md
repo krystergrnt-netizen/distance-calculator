@@ -16,12 +16,10 @@ Khryster Garnet Diego
 
 ## Sample Output
 === 2D Distance Calculator ===
+
 Enter x for Point 1: 0
-
 Enter y for Point 1: 0
-
 Enter x for Point 2: 3
-
 Enter y for Point 2: 4
 
 The distance between the points is: 5.00
