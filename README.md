@@ -1,25 +1,24 @@
-# 2D Distance Calculator
+import math
 
-A simple Python application that calculates the Euclidean distance between two points on a 2D Cartesian plane using the standard distance formula.
+def calculate_distance():
+    # Print the application header banner
+    print("=== 2D Distance Calculator ===")
+    print()
 
-## Author
-Khryster Garnet Diego
+    # Get the coordinates for the first point from the user
+    x1 = float(input("Enter x for Point 1: "))
+    y1 = float(input("Enter y for Point 1: "))
 
-## How to Run
-1. Ensure Python 3.x is installed on your computer.
-2. Open a terminal or command prompt in this directory.
-3. Run the script using: `python distance_calculator.py`
+    # Get the coordinates for the second point from the user
+    x2 = float(input("Enter x for Point 2: "))
+    y2 = float(input("Enter y for Point 2: "))
 
-## Input Needed
-- Point 1 coordinates (`x1`, `y1`) as numbers.
-- Point 2 coordinates (`x2`, `y2`) as numbers.
+    # Apply the Euclidean distance formula: sqrt((x2 - x1)^2 + (y2 - y1)^2)
+    distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
 
-## Sample Output
-=== 2D Distance Calculator ===
+    print()
+    # Display the final calculated distance formatted to 2 decimal places
+    print(f"The distance between the points is: {distance:.2f}")
 
-Enter x for Point 1: 0
-Enter y for Point 1: 0
-Enter x for Point 2: 3
-Enter y for Point 2: 4
-
-The distance between the points is: 5.00
+if __name__ == "__main__":
+    calculate_distance()
