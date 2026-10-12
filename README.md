@@ -1,25 +1,45 @@
-# 2D Distance Calculator
+# Distance Between Two Points Calculator
 
-A simple Python application that calculates the Euclidean distance between two points on a 2D Cartesian plane using the standard distance formula.
+## Description
 
-## Author
-Khryster Garnet Diego
+This program calculates the distance between two points (x1, y1) and (x2, y2) on a 2D plane
+
+using input values and a math library.
 
 ## How to Run
-1. Ensure Python 3.x is installed on your computer.
-2. Open a terminal or command prompt in this directory.
-3. Run the script using: `python distance_calculator.py`
+
+1. Open the program file in VS Code, Replit, or Google Colab.
+
+2. Run the program.
+
+3. Enter the values for x1, y1, x2, and y2.
+
+4. Check the distance displayed on the screen.
 
 ## Input Needed
-- Point 1 coordinates (`x1`, `y1`) as numbers.
-- Point 2 coordinates (`x2`, `y2`) as numbers.
+
+- x1
+
+- y1
+
+- x2
+
+- y2
 
 ## Sample Output
-=== 2D Distance Calculator ===
 
-Enter x for Point 1: 0
-Enter y for Point 1: 0
-Enter x for Point 2: 3
-Enter y for Point 2: 4
+Enter x1: 2
 
-The distance between the points is: 5.00
+Enter y1: 3
+
+Enter x2: 7
+
+Enter y2: 8
+
+The distance between the two points is: 7.07
+
+## Author
+
+Name: Khryster Diego
+
+Section: 8-Dahlia
